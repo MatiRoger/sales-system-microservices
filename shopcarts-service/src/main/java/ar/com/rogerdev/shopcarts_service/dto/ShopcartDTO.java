@@ -1,0 +1,4 @@
+package ar.com.rogerdev.shopcarts_service.dto;
+
+public class ShopcartDTO {
+}
