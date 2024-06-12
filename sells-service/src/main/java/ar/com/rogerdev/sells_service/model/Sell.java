@@ -1,13 +1,13 @@
 package ar.com.rogerdev.sells_service.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import ar.com.rogerdev.sells_service.dto.SellDTO;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+
+import java.time.LocalDate;
 
 @Getter @Setter
 @AllArgsConstructor
@@ -18,4 +18,12 @@ public class Sell {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long sell_id;
     private Long shopcart_id;
+    @Temporal(TemporalType.DATE)
+    private LocalDate date;
+
+    public Sell(SellDTO newSellData) {
+        this.shopcart_id = newSellData.shopcart_id();
+        this.date = newSellData.date();
+
+    }
 }

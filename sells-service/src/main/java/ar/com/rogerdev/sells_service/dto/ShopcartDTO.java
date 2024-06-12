@@ -1,4 +1,6 @@
 package ar.com.rogerdev.sells_service.dto;
 
-public class ShopcartDTO {
+public record ShopcartDTO (
+        Double total_price
+) {
 }
