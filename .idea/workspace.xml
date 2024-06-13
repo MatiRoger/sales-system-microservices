@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="70983c3b-3b08-4432-9a57-59ef956c6a25" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/ar/com/rogerdev/api_gateway/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/ar/com/rogerdev/api_gateway/ApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sells-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services-registry/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopcarts-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products-service/src/main/java/ar/com/rogerdev/products_service/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/products-service/src/main/java/ar/com/rogerdev/products_service/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sells-service/src/main/java/ar/com/rogerdev/sells_service/controller/SellController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sells-service/src/main/java/ar/com/rogerdev/sells_service/controller/SellController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sells-service/src/main/java/ar/com/rogerdev/sells_service/dto/SellDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/sells-service/src/main/java/ar/com/rogerdev/sells_service/dto/SellDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sells-service/src/main/java/ar/com/rogerdev/sells_service/dto/ShopcartDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/sells-service/src/main/java/ar/com/rogerdev/sells_service/dto/ShopcartDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sells-service/src/main/java/ar/com/rogerdev/sells_service/model/Sell.java" beforeDir="false" afterPath="$PROJECT_DIR$/sells-service/src/main/java/ar/com/rogerdev/sells_service/model/Sell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sells-service/src/main/java/ar/com/rogerdev/sells_service/repository/IShopcartAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/sells-service/src/main/java/ar/com/rogerdev/sells_service/repository/IShopcartAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sells-service/src/main/java/ar/com/rogerdev/sells_service/service/SellService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sells-service/src/main/java/ar/com/rogerdev/sells_service/service/SellService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/products-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sells-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sells-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services-registry/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services-registry/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shopcarts-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shopcarts-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopcarts-service/src/main/java/ar/com/rogerdev/shopcarts_service/controller/ShopcartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopcarts-service/src/main/java/ar/com/rogerdev/shopcarts_service/controller/ShopcartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopcarts-service/src/main/java/ar/com/rogerdev/shopcarts_service/dto/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopcarts-service/src/main/java/ar/com/rogerdev/shopcarts_service/dto/ProductDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopcarts-service/src/main/java/ar/com/rogerdev/shopcarts_service/dto/ShopcartDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopcarts-service/src/main/java/ar/com/rogerdev/shopcarts_service/dto/ShopcartDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopcarts-service/src/main/java/ar/com/rogerdev/shopcarts_service/model/Shopcart.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopcarts-service/src/main/java/ar/com/rogerdev/shopcarts_service/model/Shopcart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopcarts-service/src/main/java/ar/com/rogerdev/shopcarts_service/repository/IProductAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopcarts-service/src/main/java/ar/com/rogerdev/shopcarts_service/repository/IProductAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopcarts-service/src/main/java/ar/com/rogerdev/shopcarts_service/service/ShopcartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopcarts-service/src/main/java/ar/com/rogerdev/shopcarts_service/service/ShopcartService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopcarts-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shopcarts-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,22 +32,22 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2hkb43GBRQxm6hflAa3xXv1HmqR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/matur/Documents/Dev/Spring/TodoCode/TP Final/Microservices-final-repo"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/matur/Documents/Dev/Spring/TodoCode/TP Final/Microservices-final-repo&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
