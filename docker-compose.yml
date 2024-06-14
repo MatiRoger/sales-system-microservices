@@ -14,7 +14,7 @@ services:
       - shop_app-networks
     environment:
       EUREKA_URL: http://services-registry:8761/eureka
-      DB_URL: jdbc:mysql://shop_db:3306/products-service?createDatabaseIfNotExist=true&serverTimezone=UTC
+      DB_URL: jdbc:mysql://shop_db:3306/products-service?createDatabaseIfNotExist=TRUE&serverTimezone=UTC
       DB_USERNAME: root
       DB_PASSWORD: 1234
     depends_on:
@@ -28,21 +28,21 @@ services:
       - shop_app-networks
     environment:
       EUREKA_URL: http://services-registry:8761/eureka
-      DB_URL: jdbc:mysql://shop_db:3306/shopcarts-service?createDatabaseIfNotExist=true&serverTimezone=UTC
+      DB_URL: jdbc:mysql://shop_db:3306/shopcarts-service?createDatabaseIfNotExist=TRUE&serverTimezone=UTC
       DB_USERNAME: root
       DB_PASSWORD: 1234
     depends_on:
       - services-registry
       - shop_db
-  sells-service:
-    build: sells-service
+  sales-service:
+    build: sales-service
     ports:
       - "8082:8082"
     networks:
       - shop_app-networks
     environment:
       EUREKA_URL: http://services-registry:8761/eureka
-      DB_URL: jdbc:mysql://shop_db:3306/sells-service?createDatabaseIfNotExist=true&serverTimezone=UTC
+      DB_URL: jdbc:mysql://shop_db:3306/sales-service?createDatabaseIfNotExist=TRUE&serverTimezone=UTC
       DB_USERNAME: root
       DB_PASSWORD: 1234
     depends_on:

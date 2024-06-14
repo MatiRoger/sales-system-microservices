@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70983c3b-3b08-4432-9a57-59ef956c6a25" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api-gateway/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sells-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services-registry/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopcarts-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/products-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sells-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sells-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services-registry/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services-registry/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopcarts-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shopcarts-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopcarts-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shopcarts-service/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="70983c3b-3b08-4432-9a57-59ef956c6a25" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
