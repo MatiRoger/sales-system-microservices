@@ -21,30 +21,30 @@ This service records each sale and associates it with a shopping cart. Main func
 - Record sales with an identification number and date
 - Associate a sale with a cart and retrieve the total amount and the list of products
 
-## Requirements Caracteristics
+## Caracteristics
 
-### 2. Development of Microservices
+### 1. Development of Microservices
 
 Each microservice will be developed individually, including the necessary CRUD operations and appropriate configuration in the `application.properties` file.
 
-### 3. Configuration of Eureka Server
+### 2. Configuration of Eureka Server
 
 A Eureka server will be configured to register the microservices. Representative names will be assigned to each service:
 - products-service
 - shopcarts-service
 - sales-service
 
-### 4. Implementation of Load Balancing
+### 3. Implementation of Load Balancing
 
 Spring Cloud Load Balancer used to implement load balancing:
 - Create 2 or more instances of the Products microservice on different ports.
 - Simulate constant requests using Postman to verify the load balancer functionality.
 
-### 6. Implementation of API Gateway
+### 4. Implementation of API Gateway
 
 Spring Cloud API Gateway implemented to act as an entry point for external clients.
 
-### 7. Docker
+### 5. Docker
 
 Docker will be used for the deployment and execution of the microservices:
 - Created Dockerfiles for each service.
